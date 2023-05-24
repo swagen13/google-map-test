@@ -15,16 +15,28 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.issarapap.googlemaptest"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyApSQ6aKx3a3HDucnIKyG_FmcnVb3wQrms"
+        }
+      },
+      "package": "com.issarapap.googlemaptest"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "096b62d9-4c17-4cb5-ac80-393d58f1677b"
+      }
     }
   }
 }
